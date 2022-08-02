@@ -1,0 +1,99 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #150b3e;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%;
+  max-width: 480px;
+}
+.owner-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.letter-box {
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.letter {
+  font-family: 'Roboto';
+  color: #7c3aed;
+  text-align: center;
+}
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.amount-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.amount-section-head {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 22px;
+  font-weight: 500;
+}
+.amount-section-amount {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.amount-inrupess {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 14px;
+  margin-top: 0px;
+  font-weight: 700;
+}
+.withDraw-heading {
+  color: white;
+}
+.withDrawSection {
+  margin-bottom: 20px;
+}
+.withDraw-heading {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 24px;
+}
+.withDraw-description {
+  font-family: 'Roboto';
+  color: #585076;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.denomination-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
